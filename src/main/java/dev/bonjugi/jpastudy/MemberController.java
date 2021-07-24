@@ -24,7 +24,6 @@ public class MemberController {
     )
   @GetMapping("/hello")
   public String hello() {
-
     return "hello";
   }
 }
